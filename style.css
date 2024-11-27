@@ -58,7 +58,7 @@ label, .check_icon{
 .nav-items>a{
     text-decoration: none;
     text-transform: capitalize;
-    color: #000;
+    color: #fff;
     font-weight: 500;
 }
 
@@ -150,6 +150,7 @@ label, .check_icon{
 .banner-inside>h1{
     font-size: 3rem;
     width: 280px;
+    color: #fff;
 
 }
 
@@ -162,6 +163,7 @@ label, .check_icon{
     width: 280px;
     opacity: .7;
     margin-top: 1rem;
+    color: #fff;
 }
 
 .banner-img{
@@ -670,7 +672,6 @@ hr{
         border-bottom: 4px solid #ee4f0e;
         opacity:.97;
         border-bottom: 4px solid #ee4f0e;
-        border-bottom: 4px solid #f6ae2d;
         transform: translate(100%, 0);
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0) ;
 
@@ -739,7 +740,7 @@ hr{
     }
 
     .features>h1{
-        font-size:1.7rem
+        font-size:1.5rem
     }
 
     .banner-inside{
@@ -753,7 +754,7 @@ hr{
 
 .categories-one{
     width: calc(100% - 30px);
-    gap: 0.85rem;
+    gap: 2.1rem;
     margin-left: 15px;
  
     }
@@ -764,6 +765,7 @@ hr{
         margin-left: 1px;
         margin-top:-10px;
         width: calc(100% - 30px);
+        display: none;
     }
     
 
@@ -772,7 +774,19 @@ hr{
     flex-direction: column;
     gap: 0.1rem;
     margin: 2rem auto;
+    text-align: center;
 }
+
+.jewel-one>img{
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+}
+
+
+
+
+
 
 .insidetestimony{
     width: 340px;
